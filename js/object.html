@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Objects</h2>
+
+<p id="demo"></p>
+
+<p id="abc" style="color:red"></p>
+
+
+<script>
+// Create an object:
+var student = {
+    firstName : "Pankaj",
+    lastName  : "Bihst",
+    age       : 50,
+    eyeColor  : "blue"
+};
+var car = {
+    brand : "bmw",
+    color  : "Bihst",
+    age       : 50,
+    model  : ["2011", "2015"],
+    Address  : ["gzb", "jai","bly"],
+};
+
+// Display some data from the object:
+document.getElementById("demo").innerHTML =
+student.firstName + " is " + student.age + " years old.";
+
+document.write("<br/>");
+
+document.getElementById("abc").innerHTML =
+car.brand + " is " + car.Address[1] + " years old.";
+
+</script>
+
+</body>
+</html>
